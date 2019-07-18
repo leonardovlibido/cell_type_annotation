@@ -1,0 +1,45 @@
+(Name of model: weighted f1-score)
+- SVM: 98.40%
+- ADA Boosting: 98.37%
+- KNN: 98.20%
+- XGBoost: 97.99%
+- Neural Network: 97.95%
+- Random Forest: 97.87%
+- Multinomial logistic regression: 97.35%
+- Gradient boosting: 97.34%
+
+-------------------------------------------------------------------------------
+
+(Name of model: accuracy)
+- SVM: 98.40%
+- ADA Boosting: 98.40%
+- KNN: 98.40%
+- XGBoost: 98.13%
+- Neural Network: 97.95%
+- Random Forest: 97.78%
+- Multinomial logistic regression: 97.50%
+- Gradient boosting: 97.68%
+
+-------------------------------------------------------------------------------
+
+(Name of model, weighted f1-score, accuracy)
+SVM,                                98.40,      98.40
+ADA Boosting,                       98.37,      98.40
+KNN,                                98.20,      98.40
+XGBoost,                            97.99,      98.13
+Neural Network,                     97.95,      97.95
+Random Forest,                      97.87,      97.78
+Multinomial logistic regression,    97.35,      97.50
+Gradient boosting,                  97.34,      97.68
+
+-------------------------------------------------------------------------------
+
+(Broj Instanci Po Klasama)
+klasa1  143
+klasa2   13
+klasa3   51
+klasa4  236
+klasa5   93
+klasa6  520
+klasa7   67
+
