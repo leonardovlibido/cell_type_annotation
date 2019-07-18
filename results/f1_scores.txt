@@ -1,0 +1,10 @@
+(Name of model: weighted f1-score)
+- SVM: 98.40%
+- ADA Boosting: 98.37%
+- KNN: 98.20%
+- XGBoost: 97.99%
+- Neural Network: 97.95%
+- Random Forest: 97.87%
+- Multinomial logistic regression: 97.35%
+- Gradient boosting: 97.34%
+
