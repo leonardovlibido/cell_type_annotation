@@ -4,7 +4,7 @@
 - KNN: 98.20%
 - XGBoost: 97.99%
 - Neural Network: 97.95%
-- Random Forest: 97.87%
+- Random Forest: 97.60%
 - Multinomial logistic regression: 97.35%
 - Gradient boosting: 97.34%
 
@@ -16,7 +16,7 @@
 - KNN: 98.40%
 - XGBoost: 98.13%
 - Neural Network: 97.95%
-- Random Forest: 97.78%
+- Random Forest: 98.04%
 - Multinomial logistic regression: 97.50%
 - Gradient boosting: 97.68%
 
@@ -28,18 +28,24 @@ ADA Boosting,                       98.37,      98.40
 KNN,                                98.20,      98.40
 XGBoost,                            97.99,      98.13
 Neural Network,                     97.95,      97.95
-Random Forest,                      97.87,      97.78
+Random Forest,                      97.60,      98.04
 Multinomial logistic regression,    97.35,      97.50
 Gradient boosting,                  97.34,      97.68
 
 -------------------------------------------------------------------------------
 
-(Broj Instanci Po Klasama)
-klasa1  143
-klasa2   13
-klasa3   51
-klasa4  236
-klasa5   93
-klasa6  520
-klasa7   67
+(Accuracy by class)
+
+                                                             Multi
+                           Ada           XG          Random   Log   Grad
+        support     SVM   Boost   KNN   Boost   NN   Forest   Reg   Boost
+
+class1    143      97.20  97.20  97.90  98.60  96.50  97.90  96.50  97.90
+class2     13      61.54  61.54  23.08  38.46  53.85  07.69  23.08  15.38
+class3     51      98.04  98.04  98.04  100.0  100.0  98.04  100.0  100.0
+class4    236      100.0  99.15  99.15  99.15  98.31  98.73  98.73  98.73
+class5     93      97.85  98.92  98.92  98.92  98.92  97.85  98.92  94.62
+class6    520      98.85  99.42  99.81  98.85  98.65  99.81  98.27  99.42
+class7     67      100.0  97.01  100.0  97.01  100.0  100.0  100.0  98.51
+
 
