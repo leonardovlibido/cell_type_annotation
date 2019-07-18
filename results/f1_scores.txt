@@ -1,4 +1,4 @@
-(Name of model: weighted f1-score)
+(Name of model: weighted f1-score on test set)
 - SVM: 98.40%
 - ADA Boosting: 98.37%
 - KNN: 98.20%
